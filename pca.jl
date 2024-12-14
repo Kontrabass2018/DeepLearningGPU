@@ -1,4 +1,5 @@
-
+using LinearAlgebra
+using Statistics
 function fit_transform_pca(X, outdim)
     x_means =  mean(X, dims =2 )
     Z = X .- x_means

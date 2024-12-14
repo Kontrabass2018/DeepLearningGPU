@@ -10,7 +10,8 @@ using CUDA
 using HDF5
 using CSV 
 using Random
-
+using LinearAlgebra
+using Statistics
 using Flux
 using DataFrames
 using CairoMakie
